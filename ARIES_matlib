@@ -1,0 +1,1764 @@
+
+
+# Steel Structure for Blanket and Shield
+
+# Modified F82H Ferritic Steel (reference steel for ARIES) 
+# Recommended by Zinkle for US power plants
+# Composition:  8Cr-2WVTaC 
+# reference: R. Klueh et al., Impurity effects on reduced-
+#            activation ferritic steels developed for 
+#            fusion applications, Journal of Nuclear 
+#            Materials 280 (2000) 353-359.
+# density: 7.89 g per cm3
+#                 Density  Number  wt-percent  Z
+#
+MF82H                7.89     24
+                              c    0.1        6
+                              al   14e-4      13
+                              v    0.2        23
+                              cr   7.5        24
+                              fe   90.11586   26
+                              co   28e-4      27
+                              ni   474e-4     28
+                              cu   100e-4     29
+                              nb   3.3e-4     41
+                              mo   21e-4      42
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              ta   0.02       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+                              u    0.05e-4    92
+
+
+
+
+# Borated Modified F82H Ferritic Steel (reference) 
+# Composition:  8Cr-2WVTaC + 3 wt percent natural Boron
+#               reduce Fe by 3 wt percent 
+# reference: R. Klueh et al., Impurity effects on reduced-
+#            activation ferritic steels developed for 
+#            fusion applications, Journal of Nuclear 
+#            Materials 280 (2000) 353-359.
+# density: 7.89 g per cm3
+#
+B_MF82H              7.89    25
+                              b    3.0        5
+                              c    0.1        6
+                              al   14e-4      13
+                              v    0.2        23
+                              cr   7.5        24
+                              fe   87.11586   26
+                              co   28e-4      27
+                              ni   474e-4     28
+                              cu   100e-4     29
+                              nb   3.3e-4     41
+                              mo   21e-4      42
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              ta   0.02       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+                              u    0.05e-4    92
+
+
+
+
+# ODS IEA Modified F82H Ferritic Steel
+# Composition:  9Cr-2WVTa 
+# reference: M. Billone's E-mail on 9/20/02
+# density: 7.78 g per cm3
+#
+ODS-MF82H            7.78    36
+                              b    3e-4       5
+                              c    0.04       6
+                              n    50e-4      7
+                              o    0.13       8 
+                              al   0.01      13
+                              si   0.24      14
+                              p    50e-4     15
+                              s    20e-4     16
+                              ti   0.09      22
+                              v    0.29      23
+                              cr   8.7       24
+                              mn   0.45      25
+                              fe   87.891458 26
+                              co   28e-4     27
+                              ni   474e-4    28
+                              cu   0.01      29
+                              as   20e-4     33
+                              y    0.7       39
+                              nb   3.3e-4     41
+                              mo   21e-4      42
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              sn   10e-4      50
+                              sb   5e-4       51
+                              ta   0.08       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+                              u    0.05e-4    92
+
+
+# Borated ODS IEA Modified F82H Ferritic Steel 
+# Composition:  9Cr-2WVTa + 3 wt percent natural Boron 
+#               (reduce Fe by 3 wt percent)
+# reference: M. Billone's E-mail on 9/20/02 
+#            for ODS IEA Modified F82H
+# density: 7.78 g per cm3
+#
+ODS-B_MF82H          7.78    36
+                              b    3.0003     5
+                              c    0.04       6
+                              n    50e-4      7
+                              o    0.13       8 
+                              al   0.01      13
+                              si   0.24      14
+                              p    50e-4     15
+                              s    20e-4     16
+                              ti   0.09      22
+                              v    0.29      23
+                              cr   8.7       24
+                              mn   0.45      25
+                              fe   84.891458 26
+                              co   28e-4     27
+                              ni   474e-4    28
+                              cu   0.01      29
+                              as   20e-4     33
+                              y    0.7       39
+                              nb   3.3e-4     41
+                              mo   21e-4      42
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              sn   10e-4      50
+                              sb   5e-4       51
+                              ta   0.08       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+                              u    0.05e-4    92
+
+
+
+# ODS IEA Modified F82H Ferritic Steel without U, Mo, and Nb
+# Composition:  9Cr-2WVTa 
+# reference: M. Billone's E-mail on 9/20/02
+# density: 7.78 g per cm3
+#
+ODS-MF82H-NoUMoNb    7.78    33
+                              b    3e-4       5
+                              c    0.04       6
+                              n    50e-4      7
+                              o    0.13       8 
+                              al   0.01      13
+                              si   0.24      14
+                              p    50e-4     15
+                              s    20e-4     16
+                              ti   0.09      22
+                              v    0.29      23
+                              cr   8.7       24
+                              mn   0.45      25
+                              fe   87.891458 26
+                              co   28e-4     27
+                              ni   474e-4    28
+                              cu   0.01      29
+                              as   20e-4     33
+                              y    0.7       39
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              sn   10e-4      50
+                              sb   5e-4       51
+                              ta   0.08       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+
+
+
+# ODS IEA Modified F82H Ferritic Steel without U
+# Composition:  9Cr-2WVTa 
+# reference: M. Billone's E-mail on 9/20/02
+# density: 7.78 g per cm3
+#
+ODS-MF82H-NoU        7.78    35
+                              b    3e-4       5
+                              c    0.04       6
+                              n    50e-4      7
+                              o    0.13       8 
+                              al   0.01      13
+                              si   0.24      14
+                              p    50e-4     15
+                              s    20e-4     16
+                              ti   0.09      22
+                              v    0.29      23
+                              cr   8.7       24
+                              mn   0.45      25
+                              fe   87.891458 26
+                              co   28e-4     27
+                              ni   474e-4    28
+                              cu   0.01      29
+                              as   20e-4     33
+                              y    0.7       39
+                              nb   3.3e-4     41
+                              mo   21e-4      42
+                              pd   0.05e-4    46
+                              ag   0.1e-4     47
+                              cd   0.4e-4     48
+                              sn   10e-4      50
+                              sb   5e-4       51
+                              ta   0.08       73
+                              w    2.0        74
+                              os   0.05e-4    76
+                              ir   0.05e-4    77
+                              bi   0.2e-4     83
+                              eu   0.05e-4    63
+                              tb   0.02e-4    65
+                              dy   0.05e-4    66
+                              ho   0.05e-4    67
+                              er   0.05e-4    68
+
+
+
+# ODS Ferritic Steel
+# basis: ODS Ferritic Steel: Fe-12Cr-3W-0.4Ti-0.25Y2O3 (12YWT)
+# reference: R. Klueh, fusion materials semiannual 
+#        progress report for the period ending 
+#        June 30, 2000 (DOE/ER-0313/28), pp. 123-130
+#  density: 7.78  g per cm3
+#
+ODSFS               7.78     16
+                              fe  83.818    26
+                              c    0.052     6
+                              mn   0.05     25
+                              si   0.1      14
+                              ni   0.27     28
+                              cr  12.58     24
+                              mo   0.02     42
+                              ti   0.35     22
+                              w    2.44     74
+                              o    0.16      8 
+                              y    0.16     39
+                              v    0.01     23
+                              nb   0.01     41
+                              cu   0.02     29
+                              n    0.014     7
+                              s    0.001    16
+
+
+
+# Modified ODS Ferritic Steel - without Mo and Nb
+# basis: ODS Ferritic Steel: Fe-12Cr-3W-0.4Ti-0.25Y2O3 (12YWT)
+# reference: R. Klueh, fusion materials semiannual 
+#            progress report for the period ending 
+#            June 30, 2000 (DOE/ER-0313/28), pp. 123-130
+#  density: 7.78 g per cm3
+#
+ODSFS-M             7.78     14
+                              fe  83.818    26
+                              c    0.052     6
+                              mn   0.05     25
+                              si   0.1      14
+                              ni   0.27     28
+                              cr  12.58     24
+                              ti   0.35     22
+                              w    2.44     74
+                              o    0.16      8 
+                              y    0.16     39
+                              v    0.01     23
+                              cu   0.02     29
+                              n    0.014     7
+                              s    0.001    16
+
+
+
+# ORNL Ferritic Steel
+# Composition:  9Cr-2WVTa 
+# reference: R. Klueh, M.L. Grossbeck, and E.E. Bloom, 
+#           Impurity content of reduced-activation ferritic
+#           steels and vanadium alloy, Fusion Materials 
+#           Semiannual Progress Report for Period Ending 
+#         December 31, 1996, U.S. Department of Energy Office 
+#         of Fusion Energy Sciences, DOE/ER-0313/21 (April 1997).
+# density: 7.78 g per cm3
+#
+ORNL-FS                7.78  23
+                              c    0.1       6
+                              si   0.25     14
+                              v    0.025    23
+                              cr   9.0      24
+                              mn   0.5      25
+                              fe   88.055   26
+                              co   34e-4    27
+                              ni   402e-4   28
+                              nb   4e-4     41
+                              mo   70e-4    42
+                              pd   0.18e-4  46
+                              ag   0.16e-4  47
+                              cd   0.05e-4  48
+                              ta   0.07e-4  73
+                              w    2.0      74
+                              os   0.02e-4  76
+                              ir   0.05e-4  77
+                              bi   0.05e-4  83
+                              eu   0.05e-4  63
+                              dy   0.05e-4  66
+                              ho   0.05e-4  67
+                              er   0.05e-4  68
+                              u    0.6e-4   92
+
+
+
+# ARIES-AT Borated Ferritic Steel 
+# basis: ORNL Ferritic Steel: 9Cr-2WVTa
+# density: 7.78 g per cm3
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    11/11/2000 AEAA (initial definition) 
+#
+b_fs_normal            7.78   24
+                              b    3.0       5
+                              c    0.1       6
+                              si   0.25     14
+                              v    0.025    23
+                              cr   9.0      24
+                              mn   0.5      25
+                              fe   85.055   26
+                              co   34e-4    27
+                              ni   402e-4   28
+                              nb   4e-4     41
+                              mo   70e-4    42
+                              pd   0.18e-4  46
+                              ag   0.16e-4  47
+                              cd   0.05e-4  48
+                              ta   0.07e-4  73
+                              w    2.0      74
+                              os   0.02e-4  76
+                              ir   0.05e-4  77
+                              bi   0.05e-4  83
+                              eu   0.05e-4  63
+                              dy   0.05e-4  66
+                              ho   0.05e-4  67
+                              er   0.05e-4  68
+                              u    0.6e-4   92
+
+
+
+# ARIES-AT Modified Ferritic Steel with reduced Nb and Mo
+# basis: ORNL Ferritic Steel: 9Cr-2WVTa 
+# density: 7.78 g per cm3
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#        reduced Nb from 4  wppm to  1 wppm
+#        reduced Mo from 70 wppm to 20 wppm
+#
+ornl_fs                7.78   23
+                              c    0.1       6
+                              si   0.25     14
+                              v    0.025    23
+                              cr   9.0      24
+                              mn   0.5      25
+                              fe   88.055   26
+                              co   34e-4    27
+                              ni   402e-4   28
+                              nb   1e-4     41
+                              mo   20e-4    42
+                              pd   0.18e-4  46
+                              ag   0.16e-4  47
+                              cd   0.05e-4  48
+                              ta   0.07e-4  73
+                              w    2.0      74
+                              os   0.02e-4  76
+                              ir   0.05e-4  77
+                              bi   0.05e-4  83
+                              eu   0.05e-4  63
+                              dy   0.05e-4  66
+                              ho   0.05e-4  67
+                              er   0.05e-4  68
+                              u    0.6e-4   92
+
+
+
+# ARIES-AT Borated Ferritic Steel with reduced Nb and Mo 
+# basis: ORNL Ferritic Steel: 9Cr-2WVTa
+# density: 7.78 g per cm3
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#        replaced 3percent of Fe with 3percent B
+#        reduced Nb from 4  wppm to  1 wppm
+#        reduced Mo from 70 wppm to 20 wppm
+#
+b_fs                   7.78   24
+                              b    3.0       5
+                              c    0.1       6
+                              si   0.25     14
+                              v    0.025    23
+                              cr   9.0      24
+                              mn   0.5      25
+                              fe   85.055   26
+                              co   34e-4    27
+                              ni   402e-4   28
+                              nb   1e-4     41
+                              mo   20e-4    42
+                              pd   0.18e-4  46
+                              ag   0.16e-4  47
+                              cd   0.05e-4  48
+                              ta   0.07e-4  73
+                              w    2.0      74
+                              os   0.02e-4  76
+                              ir   0.05e-4  77
+                              bi   0.05e-4  83
+                              eu   0.05e-4  63
+                              dy   0.05e-4  66
+                              ho   0.05e-4  67
+                              er   0.05e-4  68
+                              u    0.6e-4   92
+
+
+
+
+# MHT-9 Ferritic Steel
+# Composition:  MHT-9 
+# Reference: BCSS study - 1984
+# density: 7.8 g per cm3
+#
+MHT-9               7.8      31
+                              b    0.001       5
+                              c    0.15        6
+                              n    0.001       7
+                              o    0.007       8 
+                              al   0.008       13
+                              si   0.2         14
+                              p    0.013       15
+                              s    0.004       16
+                              k    3e-4        19
+                              ti   0.1         22
+                              v    0.3         23
+                              cr   11          24
+                              mn   0.53        25
+                              fe   85.165      26
+                              co   0.005       27
+                              ni   0.006       28
+                              cu   0.003       29
+                              zr   0.001       40
+                              nb   0.00011     41
+                              mo   0.00027     42
+                              ag   0.9e-4      47
+                              cd   1e-4        48
+                              sn   0.003       50
+                              sb   5e-4        51 
+                              ba   2e-4        56
+                              tb   2e-4        65
+                              ta   4e-4        73
+                              w    2.5         74
+                              ir   2e-4        77
+                              pb   5e-4        82
+                              bi   2e-4        83
+
+
+# Mild Steel for Bioshield
+#   same as c1020 steel 
+# reference: SOMBRERO report - Table 5.1 - page 5-6
+# density   7.56 g per cm3 
+#    
+Mild_Steel         7.56       13
+                              c  200e-4       6
+                              n  70e-4        7
+                              si 0.31         14
+                              p  160e-4       15
+                              s  400e-4       16
+                              k  4e-4         19
+                              mn 0.52         25
+                              fe 98.747       26
+                              ni 60e-4        28
+                              cu 0.16         29
+                              ba 2e-4         56
+                              nb 1e-4         41
+                              mo 3e-4         42
+
+
+
+# C1020_steel for bioshield from Sombrero report
+#  same as Mild Steel
+#
+c1020_steel           7.56   13
+ 	                         c  200e-4       6
+                              n  70e-4        7
+                              si 0.31         14
+                              p  160e-4       15
+                              s  400e-4       16
+                              k  4e-4         19
+                              mn 0.52         25
+                              fe 98.747       26
+                              ni 60e-4        28
+                              cu 0.16         29
+                              ba 2e-4         56
+                              nb 1e-4         41
+                              mo 3e-4         42
+
+
+
+# Carbon Steel (lowest cost per unit mass of all form of steels) 
+# basis: A830 alloy - Z-Pinch RTL reference material 
+# reference: Gary Rochau E-mail on 5/20/04
+# http://www.intlsteel.com/PDFs/products/platespec5.pdf
+# density:   7.872  g per cm3
+# 
+Carbon_Steel         7.872    5
+                              fe  99.51     26
+                              c    0.08      6
+                              mn   0.32     25
+                              p    0.04     15
+                              s    0.05     16
+
+
+
+# A286-Steel for RTL of Z-Pinch
+# basis: Austenitic steel
+# reference: Technical Data Blue Sheet, 
+#            Allegheny Ludium Corporation. Pittsburg, PA  
+#        Ben Cipiti E-mail on 6/29/05
+#  density: 7.92  g per cm3
+#
+A286-Steel         7.92     13
+                              fe  56.237    26
+                              c    0.04      6
+                              mn   0.2      25
+                              p    0.015    15
+                              s    0.002    16
+                              si   0.2      14
+                              cr  14.5      24          
+                              ni  25.0      28
+                              mo   1.25     42
+                              ti   2.1      22
+                              v    0.3      23
+                              al   0.15     13
+                              b    0.006     5
+
+
+# OLD 316 SS Austenitic Steel
+# Composition:  316-SS 
+# Reference: 1990s ITER Material Design Data Book
+# density: 7.855 g per cm3
+#
+316-SS              7.855    32
+                              b    0.001       5
+                              c    0.018       6
+                              n    0.07        7
+                              o    0.002       8 
+                              al   0.3        13
+                              si   0.46       14
+                              p    0.026      15
+                              s    0.011      16
+                              k    5e-4       19
+                              ti   0.04       22
+                              v    0.004      23
+                              cr   17.1       24
+                              mn   1.7        25
+                              fe   64.6       26
+                              co   0.03       27
+                              ni   13.2       28
+                              cu   0.1        29
+                              as   5e-4       33
+                              zr   0.002      40
+                              nb   0.002      41
+                              mo   2.5        42
+                              ag   2e-4       47
+                              cd   2e-4       48
+                              sn   0.002      50
+                              sb   5e-4       51 
+                              ba   5e-4       56
+                              ta   5e-4       73
+                              w    0.001      74
+                              ir   5e-4       77
+                              tb   5e-4       65
+                              pb   8e-4       82
+                              bi   8e-4       83
+
+
+# Borated 316 SS Austenitic Steel
+# Composition: 316-SS with 3 wt percent Boron, replacing Fe 
+# Reference for 316-SS: 1990s ITER Material Design Data Book
+# density: 7.855 g per cm3 
+#          assuming 3 wt percent B will not change density
+#
+#
+316-SS-B              7.855    32
+                              b    3.001       5
+                              c    0.018       6
+                              n    0.07        7
+                              o    0.002       8 
+                              al   0.3        13
+                              si   0.46       14
+                              p    0.026      15
+                              s    0.011      16
+                              k    5e-4       19
+                              ti   0.04       22
+                              v    0.004      23
+                              cr   17.1       24
+                              mn   1.7        25
+                              fe   61.6       26
+                              co   0.03       27
+                              ni   13.2       28
+                              cu   0.1        29
+                              as   5e-4       33
+                              zr   0.002      40
+                              nb   0.002      41
+                              mo   2.5        42
+                              ag   2e-4       47
+                              cd   2e-4       48
+                              sn   0.002      50
+                              sb   5e-4       51 
+                              ba   5e-4       56
+                              ta   5e-4       73
+                              w    0.001      74
+                              ir   5e-4       77
+                              tb   5e-4       65
+                              pb   8e-4       82
+                              bi   8e-4       83
+
+
+# NEW 316 SS Austenitic Steel
+# Composition:  316-SS 
+# Reference: 2010 ITER Design. M. Sawan E-mail on 7/6/2010
+# density: 7.966 g per cm3
+#
+316_SS_New              7.966    25     
+                              b    0.001       5
+                              c    0.0225      6
+                              n    0.07        7
+                              o    0.002       8 
+                              al   0.05        13
+                              si   0.5         14
+                              p    0.025       15
+                              s    0.0075      16
+                              k    5e-4        19
+                              ti   0.15        22
+                              v    0.004       23
+                              cr   17.5        24
+                              mn   1.8         25
+                              fe   64.938      26
+                              co   0.05        27
+                              ni   12.25       28
+                              cu   0.1         29
+                              zr   0.002       40
+                              nb   0.01        41
+                              mo   2.5         42
+                              sn   0.002       50
+                         	   ta   0.01       73
+                              w    0.001       74
+                              pb   8e-4        82
+                              bi   8e-4        83
+
+
+# Tungsten alloys:
+
+
+# ARIES-AT Tungsten Carbide
+# reference:
+#    Tungsten and impurities: 
+#    aries.ucsd.edu/PROPS/ITER/AM01/AM01-1100.html
+#    bulk density of WC: 64th CRC Handbook of Chemistry 
+#    and Physics, B-152
+# definition:
+#    93.8 wt percent W (as defined by reference) 
+#        with 6.1 wt percent pure C
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+wc             15.63         14
+                              c  6.13         6
+                              o  47e-4        8   
+                              n  19e-4        7  
+                              si 94e-4        14
+                              fe 70e-4        26
+                              ni 10e-4        28
+                              al 23e-4        13
+                              mo 20e-4        42
+                              mn 9.4e-4       25   
+                              mg 9.4e-4       12
+                              cu 9.4e-4       29
+                              ag 9.4e-4       47
+                              ca 9.4e-4       20
+                              w  93.8         74
+
+
+
+# ARIES-AT Tungsten Alloy: W-0.2percentTiC
+# references:
+#    Tungsten and impurities: 
+#    aries.ucsd.edu/PROPS/ITER/AM01/AM01-1100.html
+#    TiC alloy: ????
+#    bulk density of W: 64th CRC Handbook of Chemistry 
+#    and Physics B-152
+# definition:
+#    99.752 wt percent W (as defined by reference) 
+#    with 0.248 wt percent TiC
+#    0.248percent TiC = 0.18percent Ti + 0.033percent C 
+#                       + 0.016percent N + 0.0195 O
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+W_0.2TiC           19.35     15
+                              c  .0341        6
+                              o  .0240        8   
+                              n  .0180        7  
+                              si 100e-4       14
+                              fe 75e-4        26
+                              ni 11e-4        28
+                              al 24e-4        13
+                              mo 21e-4        42
+                              mn 10e-4        25   
+                              mg 10e-4        12
+                              cu 10e-4        29
+                              ag 10e-4        47
+                              ca 10e-4        20
+                              w  99.72        74
+                              ti 0.18         22
+
+
+# Pure Tungsten 
+#
+PureW               19.35     1
+                              w  100          74
+
+
+# Tungsten + Impurities
+# Definition:
+#    99.99 wt percent W (as defined by PLANSEE)
+# Reference:
+#    M. Rieth (FZK) – 6-22-2009 E-mail 
+# 
+W_Impurities        19.35     30  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  99.99       74
+                              pb 2e-4        82
+
+
+# Tungsten + Impurities with 1 wppm Nb, not 5 wppm
+# Definition:
+#    99.99 wt percent W (as defined by PLANSEE)
+# Reference:
+#    M. Rieth (FZK) – 6-22-2009 E-mail 
+# 
+W_Impurities_1Nb      19.35     30  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 1e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  99.99       74
+                              pb 2e-4        82
+
+
+# Tungsten + Impurities with 4 wppm Nb, not 5 or 1 wppm
+# Definition:
+#    99.99 wt percent W (as defined by PLANSEE)
+# Reference:
+#    M. Rieth (FZK) – 6-22-2009 E-mail 
+# 
+W_Impurities_4Nb      19.35     30  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 4e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  99.99       74
+                              pb 2e-4        82
+
+
+# Tungsten-Rhenium Alloy
+# Definition:
+#     26 wt percent Re + 73.99 wt percent W + impurities
+# Reference for W impurities:
+#    M. Rieth (FZK) – 6-22-2009 E-mail 
+# 
+W_Re               19.7       31  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  73.99       74
+                              re 26          75
+                              pb 2e-4        82
+
+
+# Tungsten-Ni-Cu Alloy
+# Definition:
+#     6 wt percent Ni + 4 wt percent Cu 
+#     + 90 wt percent W + impurities
+# Reference for W impurities:
+#    M. Rieth (FZK) – 6-22-2009 E-mail 
+# 
+W_Ni_Cu            17         30  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 6.0002      28
+                              cu 4.0005      29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  89.99       74
+                              pb 2e-4        82
+
+
+# Tungsten-Ni-Fe Alloy
+# Definition:
+#     7 wt percent Ni + 3 wt percent Fe 
+#     + 90 wt percent W + impurities
+# Reference for W impurities:
+#    M. Rieth (FZK) – 6-22-2009 E-mail
+# 
+W_Ni_Fe            17         30  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  5e-4         8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 3.001       26
+                              co 2e-4        27
+                              ni 7.0002      28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  89.99       74
+                              pb 2e-4        82
+
+
+# Tungsten-La2O3 Alloy
+# Definition:
+#     1 wt percent La2O3 + 99 wt percent W + impurities
+# Reference:
+#    M. Rieth (FZK) – 6-22 and 8-5,2009 E-mails
+# 
+W_La2O3            19.3       31  
+                              h   2e-4        1
+                              c  10e-4        6
+                              o  0.1475       8   
+                              n  2e-4         7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti 2e-4        22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              la 0.853       57
+                              ta 10e-4       73
+                              w  98.99       74
+                              pb 2e-4        82
+
+
+#  W_1.1TiC  with Mo         18.1       6
+#                              c  .22           6
+#                              o  .02           8   
+#                              n  .004          7  
+#                              mo 3.0          42
+#                              w  95.876       74
+#                              ti 0.88         22
+#
+
+
+#  Composition from Hiroaki Kurishita (Japan) – May 13, 2010 E-mail
+#  Alloy has 3 wt% Mo, 200 wppm O, 40 wppm N
+#  Mo in original composition can be removed. It is from mechanical alloying.
+#  Remove Mo and add nominal impurities for W_Impurities
+#  
+W_1.1TiC_NoMo        18.1        30
+                              h   2e-4        1
+                              c  .221         6
+                              o  205e-4       8   
+                              n  42e-4        7 
+                              na 2e-4        11
+                              mg 2e-4        12
+                              al 5e-4        13
+                              si 5e-4        14
+                              p  10e-4       15
+                              s  2e-4        16
+                              k  5e-4        19
+                              ca 2e-4        20
+                              ti .8802       22
+                              cr 5e-4        24
+                              mn 2e-4        25
+                              fe 10e-4       26
+                              co 2e-4        27
+                              ni 2e-4        28
+                              cu 5e-4        29
+                              zn 2e-4        30
+                              as 2e-4        33
+                              zr 2e-4        40
+                              nb 5e-4        41
+                              mo 20e-4       42
+                              ag 5e-4        47
+                              cd 2e-4        48
+                              ba 2e-4        56
+                              ta 10e-4       73
+                              w  98.866      74
+                              pb 2e-4        82
+
+
+
+
+
+
+# Silicon Carbide and Carbon Composites:
+
+# ARIES-AT Silicon-Carbide
+# Based on: SUPERSiC (r)
+# references:
+#    composition: S. Sharaft, IPFR/UCLA, Aries Study: 
+#    Materials: Sept. 1993, pg 3
+#    bulk density of SiC: 64th CRC Handbook of Chemistry 
+#                         and Physics B-135
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+si_c                 3.217   38
+                              c   29.95         6
+                              na  0.050e-4     11
+                              si  70.05        14
+                              k   0.180e-4     19
+                              sc  0.013e-4     21
+                              cr  0.017e-4     24
+                              fe  0.440e-4     26
+                              co  0.013e-4     27
+                              ni  0.074e-4     28
+                              cu  0.048e-4     29
+                              zn  0.043e-4     30
+                              ga  0.005e-4     31
+                              as  0.003e-4     33
+                              se  0.001e-4     34
+                              br  0.001e-4     35
+                              rb  0.001e-4     37
+                              sr  0.012e-4     38
+                              zr  0.236e-4     40
+                              mo  0.041e-4     42
+                              ag  0.002e-4     47
+                              cd  0.004e-4     48
+                              in  0.001e-4     49
+                              sn  0.076e-4     50
+                              sb  0.001e-4     51
+                              cs  0.001e-4     55
+                              ba  0.047e-4     56
+                              la  0.018e-4     57
+                              eu  0.001e-4     63
+                              tb  0.001e-4     65
+                              yb  0.001e-4     70
+                              hf  0.001e-4     72
+                              ta  0.001e-4     73
+                              w   0.032e-4     74
+                              ir  0.001e-4     77
+                              pt  0.542e-4     78
+                              hg  0.001e-4     80
+                              th  0.001e-4     90
+                              u   0.001e-4     92
+
+
+
+# C-C Composites
+# references:  SOMBRERO report , P 5-6
+# density  1.8 g/cm3 
+#
+c_c                      1.8  12
+                              b   2e-4         5
+                              c   99.999       6
+                              na  10e-4        11
+                              mg  1e-4         12
+                              al  4e-4         13
+                              si  21e-4        14
+                              s   1e-4         16
+                              ca  22e-4        20
+                              ti  1e-4         22
+                              v   1e-4         23
+                              fe  3e-4         26
+                              pb  7e-4         82
+
+
+
+# Breeders:
+
+# ARIES-AT 90 percent Enriched Lithium Lead at 580 oC
+# references:
+#   composition: S. Malang & K. Schleisiek, "Dual Coolant 
+#                Blanket Concept", 
+#                KFK5424, Karlsruhe, Nov 1994
+#   density at 580 oC = 9 g per cm3 , per S. Malang
+#   Last modified: 10/2006 by Laila
+#
+pb_17li-90               9    9
+                              pb 99.29        82
+                           li:90 0.7           3
+                              zn 10e-4        30
+                              fe 10e-4        26
+                              bi 43e-4        83
+                              cd 5e-4         48
+                              ag 5e-4         47
+                              sn 5e-4         50
+                              ni 2e-4         28
+
+
+# Liquid F4Li2Be
+# Impurities from Hesham Khater
+# density at 460 oC is 2.00
+#
+Liquid_Flibe        2        14
+                              f  76.86        9
+                              li 14.04        3
+                              be  9.114       4
+                              c   91e-4       6
+                              o  0.0987       8
+                              mg  5.5e-4     12
+                              al  77e-4      13
+                              si  27e-4      14
+                              ti  19e-4      22
+                              cr   9e-4      24
+                              mn  11e-4      25
+                              fe  0.0139     26
+                              ni  13e-4      28
+                              cu   7e-4      29
+
+
+
+# Liquid Flinabe (LiBeNa4F ; BeF2, LiF, NaF)
+# Impurities from Hesham Khater
+# density at 240 oC (or 420 oC) is 2.0 g per cm3
+#
+Liquid_Flinabe        2      15
+                              f  66           9
+                              na 20.043      11
+                              li  6.051       3
+                              be  7.857       4
+                              c   91e-4       6
+                              o  0.0987       8
+                              mg  5.5e-4     12
+                              al  77e-4      13
+                              si  27e-4      14
+                              ti  19e-4      22
+                              cr   9e-4      24
+                              mn  11e-4      25
+                              fe  0.0139     26
+                              ni  13e-4      28
+                              cu   7e-4      29
+
+
+
+# Li2O
+# references:  SOMBRERO report , P 5-7
+# density ~ 1.9 g per cm3 at ~600 oC
+#
+li2o                    1.9  34
+                              li  44.48438     3
+                              be  1e-4         4
+                              b   1e-4         5
+                              c   100e-4       6
+                              n   2e-4         7
+                              o   55.46493     8
+                              f   0.1e-4       9
+                              na  60e-4        11
+                              mg  10e-4        12
+                              al  50e-4        13
+                              si  50e-4        14
+                              p   1e-4         15
+                              s   0.1e-4       16
+                              cl  10e-4        17
+                              k   20e-4        19
+                              ca  100e-4       20
+                              ti  10e-4        22
+                              v   1e-4         23
+                              cr  1e-4         24
+                              mn  1e-4         25
+                              fe  50e-4        26
+                              co  0.2e-4       27
+                              ni  10e-4        28
+                              cu  10e-4        29
+                              zn  10e-4        30
+                              as  0.1e-4       33
+                              br  0.1e-4       35
+                              zr  1e-4         40
+                              mo  0.1e-4       42
+                              cd  0.1e-4       48
+                              sn  1e-4         50
+                              sb  1e-4         51
+                              ba  5e-4         56
+                              pb  0.1e-4       82
+
+
+
+
+# Liquid Metals:
+
+# Liquid Lead
+# Impurity reference (same as for LiPb):
+#  S. Malang & K. Schleisiek: Dual Coolant Blanket Concept, 
+#  KFK5424, Karlsruhe, Nov 1994
+#  density at 1000 oC = 10.3 g per cm3
+#
+Liquid_Pb       10.3          8
+                              pb 99.992       82
+                              zn 10e-4        30
+                              fe 10e-4        26
+                              bi 43e-4        83
+                              cd 5e-4         48
+                              ag 5e-4         47
+                              sn 5e-4         50
+                              ni 2e-4         28
+
+
+# Liquid Tin
+# Impurity reference from M. Billone (12/7/01):
+#  ASM Metals Handbook, Vol. 2: Properties and Selection:
+#  Nonferrous Alloys and Special-Purpose Materials, 1990.
+#  density at 1000 oC = 6
+#
+Liquid_Sn        6            9
+                              sn 99.825       50
+                              sb 0.04         51
+                              as 0.05         33
+                              fe 0.015        26
+                              pb 0.05         82
+                              s  0.005        16
+                              zn 0.005        30
+                              co 0.005        27
+                              ni 0.005        28
+
+
+
+# Magnet Steel Structure:
+
+# ARIES AT Magnet structural stainless steel
+# reference: L. Bromberg
+#   density: 8 g per cm3
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+magnet_ss                    8.00         11
+                              c  0.01          6
+                              n  0.19          7
+                              si 0.1          14
+                              p  30e-4        15
+                              s  14e-4        16
+                              cr 17.2         24
+                              mn 1.48         25
+                              fe 66.8         26
+                              ni 12.1         28
+                              nb 550e-4       41
+                              mo 2.03         42
+
+
+# 316 SS Austenitic Steel
+# Composition:  316-SS 
+# Reference: ITER Material Design Data Book
+# density: 7.855 g per cm3
+#
+316-SS              7.855    32
+                              b    0.001       5
+                              c    0.018       6
+                              n    0.07        7
+                              o    0.002       8 
+                              al   0.3        13
+                              si   0.46       14
+                              p    0.026      15
+                              s    0.011      16
+                              k    5e-4       19
+                              ti   0.04       22
+                              v    0.004      23
+                              cr   17.1       24
+                              mn   1.7        25
+                              fe   64.6       26
+                              co   0.03       27
+                              ni   13.2       28
+                              cu   0.1        29
+                              as   5e-4       33
+                              zr   0.002      40
+                              nb   0.002      41
+                              mo   2.5        42
+                              ag   2e-4       47
+                              cd   2e-4       48
+                              sn   0.002      50
+                              sb   5e-4       51 
+                              ba   5e-4       56
+                              ta   5e-4       73
+                              w    0.001      74
+                              ir   5e-4       77
+                              tb   5e-4       65
+                              pb   8e-4       82
+                              bi   8e-4       83
+
+
+# 304-SS Steel for Magnet
+# reference: Starfire Report
+#  density: 7.86  g/cm3
+#
+SS-304              7.86     13
+                              fe  70.578    26
+                              c    0.046     6
+                              n    0.038     7
+                              si   0.47     14
+                              p    0.026    15
+                              s    0.012    16
+                              ti   0.03     22
+                              cr  17.7      24
+                              mn   1.17     25
+                              co   0.1      27
+                              ni   9.3      28
+                              cu   0.2      29
+                              mo   0.33     42
+
+
+# JK2LB Japanese Steel for ARIES-CS
+# ITER magnet structure from L. Bromberg (2006) 
+# Report: Comments on Selection of U.S. ITER CS Coil 
+#         Jacket Material
+#         P. Heizenroeder (PPPL), R. Reed (9/12/2005) 
+#
+JK2LB             8.0         11
+                              b    	0.002      5
+                              c   	0.02       6
+                              n   	0.2        7
+                              si  	0.3        14
+                              p    	0.004     	15
+                              s    	0.004     	16
+                              cr  	13     	24
+                              mn  	21        	25
+                              fe  	55.47      26
+                              ni  	9        	28
+                              mo  	1        	42
+
+
+# Incalloy 
+# basis: high Ni alloy , No impurities 
+# reference: ARIES-III,II/IV magnet ‚ L. Bromberg 11/2/90 
+#
+Incalloy            8         9
+                              c   0.01         6
+                              al  1.04        13
+                              si  0.14        14
+                              ti  1.06        22
+                              cr  3.8         24
+                              mn  0.04        25
+                              fe  41.22       26
+                              ni  49.7        28
+                              nb  2.99        41
+
+
+
+# Incoloy-908 (back up steel for ARIES-CS magnet)
+# ARIES-CS magnet structure from L. Bromberg (2006) 
+# Report: Comments on Selection of U.S. ITER CS Coil 
+#         Jacket Material
+#         P. Heizenroeder (PPPL), R. Reed (9/12/2005) 
+#
+Incoloy            8.1        16
+                              b    	0.003       5
+                              c   	0.01        6
+                              n   	0.002       7
+                              o   	0.001       8
+                              al  	1        	13
+                              si  	0.15       14
+                              p    	0.003     	15
+                              s    	0.001     	16
+                              ti  	1.6        22
+                              cr  	3.9     	24
+                              mn  	0.04       25
+                              fe  	40.76       26
+                              ni  	49.5        28
+                              cu   	0.01      	 29
+                              nb  	3        	 41
+                              mo  	0.02        42
+
+
+
+# Inconel-625 
+# basis: very high Ni alloy ‚ high Cr and Mo
+# reference: ARIES-AT magnet ‚ P. Heitzenroeder - 6/30/2000 
+#
+Inconel            8.44      14
+                              c  0.1           6
+                              al 0.4          13
+                              si 0.5          14
+                              p  0.15         15
+                              s  0.015        16
+                              ti 0.4          22
+                              cr 21.5         24
+                              mn 0.5          25
+                              fe 5            26
+                              co 1            27
+                              ni 58           28
+                              nb 1.72         41
+                              mo  9           42
+                              ta  1.72        73
+
+
+
+# Superconducting Magnet Materials:
+
+
+# Nb3Sn superconductor 
+# density 8.9 g per cm3 
+#
+Nb3Sn                8.9      2
+                              nb   70.1        41
+                              sn   29.9        50
+
+
+# Niobium Titanium superconductor
+# Composition:  NbTi 
+# Reference: ?
+# density 6.73 g per cm3 
+#
+NbTi                6.73      2
+                              nb    66      41
+                              ti    34      22
+
+
+
+# Conduit
+# reference: ARIES-III magnet 
+#
+Conduit           8.8       2
+                            cu    0.82        29
+                            nb    0.18        41
+
+
+# GFF Polyimide
+# Based on: 30 wt percent polyimide , 70 wt percent S-glass
+# reference: ARIES designs 
+#
+GFFpoly             1.92      7
+                              h   1.48         1
+                              c   21.5         6
+                              n   4.13         7
+                              o   39.1         8
+                              mg  4.1         12
+                              al  9.02        13
+                              si  20.7        14
+
+
+# ARIES-AT Magnet HT condutor - YBCO
+# references: L. Bromberg
+#    density  6.2 g per cm3 
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+conductor             6.2     4
+                              o    12.6          8
+                              cu   30.1         29
+                              y    43.3         39
+                              ba   14.0         56
+
+
+
+# Magnesium Diboride HT superconductor
+# Composition:  MgB2 
+# Reference: L. Bromberg E-mail on 2/6/04
+# density: 2.625 g per cm3 based on X-ray measurements
+#
+MgB2                2.625    2
+                              b    47.1       5
+                              mg   52.9      12
+
+
+
+# Normal Magnet Materials:
+
+# DS GlibCop AL15 
+# ARIES-ST center post
+# Reference:   V. Barabash and G. Kalinin, "Cu-alloys
+#              Data Base for First Wall, Blanket and Divertor Design Evaluation,"
+#              ITER report (Part 1) G DB TY16/17 00 94.06.05 WSI (1995).
+# density: ~8.9 g per cm3
+#
+DS_Glidcop_AL15     8.9     24
+                             cu 99.66	       29
+                             b  0.02           5
+                             c  3.00000e-4     6
+                             o  0.212600       8
+                             mg 1e-4          12
+                             al 0.15          13
+                             si 3.0e-4        14
+                             p  15e-4         15
+                             s  1e-4          16
+                             mn 50e-4         25
+                             fe 15e-4         26
+                             co 12e-4         27
+                             ni 10e-4         28
+                             as 25e-4         33
+                             ag 20e-4         47
+                             cd 25e-4         48
+                             sn 10e-4         50
+                             sb 10e-4         51
+                             pb 10e-4         82
+                             bi 50e-4         83
+                             se 25e-4         34
+                             zn 25e-4         30
+                             te 10e-4         52
+                             hg 50e-4         80
+
+
+
+
+
+# Coolants:
+
+# Water
+#
+water                 1.00   2
+                              h  11.111        1
+                              o  88.889        8
+
+
+
+
+# Liquid Nitrogen
+# references:
+#    density at 77.35K : 64th CRC Handbook of 
+#                 Chemistry and Physics B-117
+# Last modified: 04/28/2000 by PPHW
+# modifications relative to reference: 
+#    04/28/2000 PPHW (initial definition)
+#
+liq_nitrogen       0.8081     1
+                              n 100    7
+
+
+
+# Bioshield Materials:
+
+#   Ordinary_Concrete   
+#   basis :  Type 04   
+#   reference :   L.P. Ku, 12th IEEE-SOFT  (1987) 
+#
+Ordinary_Concrete   2.336     10
+                              h    0.563       1
+                              o    49.509      8 
+                              na   1.721      11  
+                              mg   0.262      12  
+                              al   4.597      13     
+                              si   31.705     14
+                              s    0.129      16
+                              k    1.932      19
+                              ca   8.339      20
+                              fe   1.243      26
+
+
+
+# Concrete from Sombrero report
+#
+concrete             2.24    19
+    	                         h  0.56         1
+	                         b  1.04         5
+	                         o  33.8         8
+	                         f  0.23         9
+                              na 1.21         11
+                              mg 0.23         12
+                              al 0.64         13
+                              si 3.31         14
+                              s  9.15         16
+                              k  100e-4       19
+                              ca 6.26         20
+                              mn 200e-4       25
+                              fe 2.19         26
+                              ni 1.32e-4      28
+                              cu 0.22e-4      29
+                              zn 0.66         30
+                              ba 40.13        56
+                              nb 200e-4       41
+                              mo 800e-4       42
+
+
+
+
+# European Concrete used in PWR 
+# L. Ooms, V. Massaut, “Feasibility of fusion waste recycling,
+#                  SCK-CEN Report, R-4056, 276/05-01 (2005).
+#
+EU_Concrete        2.3         52
+    	                          h     .61         1
+	                          li    .002		3
+	                          b     .002        5
+	                          n     .012		7	
+	                          o   54.2764       8
+                               na     .739       11
+                               mg     .24        12
+                               al    3.1         	13
+                               si   16.8         	14
+	                          p      .5		15
+                               s      .31        16
+	                          cl     .0045	     17
+                               k       .75       	19
+                               ca    18.3        20
+	                          sc     .00065     21
+	                          ti      .2121      22
+	                         v       .0103      23
+	                         cr      .0109      24
+	                         mn      .0377	      25
+                              fe      3.9        26
+	                         co      .00098	27
+                              ni      38e-4      28
+                              cu      25e-4      29
+                              zn      75e-4      30
+	                        ga      8.8e-4	      31
+	                        as      7.9e-4	      33
+	                        se      9.2e-5	      34
+	                        br      2.4e-4	      35
+	                        rb      35e-4	      37
+	                        sr      .0438	      38
+	                        y       .00182	      39
+	                        zr      .0071	      40
+                             nb      4.3e-4      41
+                              mo     .00103	      42
+	                        pd      .0003	      46
+	                        ag      2e-5	      47
+	                        cd      3e-5	      48
+	                        sn     7e-4         50
+	                        sb     1.8e-4	      51
+	                        cs     1.3e-4	      55
+	                        ba     .095	      56
+	                        la     .0013	      57
+	                        ce     .00243	      58
+	                        sm     4e-6         62
+	                        eu    .000009       63
+	                        ho     4e-6         67
+	                        lu     6e-5         71
+	                        hf     8e-5         72
+	                        ta     .00006       73
+	                        w      .0015        74
+	                        th     6e-5         90
+	                        u      9e-5         92
+
+
+
+
+
+# IFE Target Materials:
+
+gold_gd          13.5         2
+	gd 44.394       64
+	au 55.606       79
+
+
+
+pb_hf            11.92        2
+                              pb 74           82
+                              hf 27           72 
+
+
+hg_w_cs          10.61        3
+                              hg 52           80
+                              w  21           74
+                              cs 27           55
+
+
+pb_ta_cs         9.09         3
+                              pb 53           82
+                              ta 21           73
+                              cs 26           55
+
+
+# Solid Xe.  Density= 3.54 g per cm3 at triple point.
+# Ref.: Property of Noble Gases book (Elsayed Mogahed)
+#
+solid_xe         3.54         1
+                              xe 100          54
+                             
+
+# Solid Kr. Density= 2.826 g/cm3 at triple point
+# Ref.: Property of Noble Gases book (Elsayed Mogahed)
+#
+solid_kr        2.826         1
+                              kr 100          36

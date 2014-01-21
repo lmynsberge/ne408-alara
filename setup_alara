@@ -1,0 +1,43 @@
+#!/bin/bash
+#
+# Create alara_example directory
+current_dir=`pwd`
+echo "Preparing Computer Assignment #3 dir."
+mkdir $current_dir/comp-assign-3
+cd $current_dir/comp-assign-3
+# Copy necessary input files
+# Professor Henderson: These will need to be changed based on their current location.
+cp /filespace/groups/cnerg/users/mlucas/ne408/alara_dant_adjinp .
+cp /filespace/groups/cnerg/users/mlucas/ne408/alara_dant_fus_inp .
+cp /filespace/groups/cnerg/users/mlucas/ne408/alara_dant_fiss_inp .
+cp /filespace/groups/cnerg/users/mlucas/ne408/alara_inp .
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/step1 step1
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/reversed.py reversed.py
+# We seem to have problems with the file ending occasionally, so I'm going to make sure Unix-ended.
+dos2unix -q -o alara_dant_fiss_inp
+dos2unix -q -o alara_dant_fus_inp
+dos2unix -q -o alara_dant_adjinp
+# Soft-link to large libraries for space conservation
+# Professor Henderson: These paths will also need to be changed.
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/bxslib bxslib
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/ARIES_matlib ARIES_matlib
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/ARIES_elelib ARIES_elelib
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/dant2alara dant2alara
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/FENDL2.gam FENDL2.gam
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/FENDL2.lib FENDL2.lib
+ln -s /filespace/groups/cnerg/users/mlucas/ne408/alara alara
+#
+echo "All done. cd to comp-assign-3 to begin."
+#
+# Make homework folder and put in assignments
+# 
+# mkdir $current_dir/alara_homework
+# Place stuff in it
+# 
+# End
+#
+#
+# Not Used:
+# ln -s ~neep408/linux_versions/xspec xspec
+# ln -s ~neep408/linux_versions/xdoseplt xdoseplt
+

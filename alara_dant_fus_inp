@@ -1,0 +1,93 @@
+     3     0     0
+   NEEP408/ Homework Problem - IRON SLAB SHIELD
+   USING 217-GROUPS CROSS SECTION LIBRARY - Mono-Directional Source
+   CALCULATE NEUTRON FLUX FOR BIOLOGICAL DOSE
+/  geometry       - slab
+/  cross section  - 175 neutron - 42 gamma coupled library, P5 expansion 
+/                   of the differential scattering cross section
+/
+/  ---------------- Block 1 (Control and Dimensions) -------------------
+    igeom= 1  ngroup= 217  isn= 8  niso= 44  mt= 2  
+              nzone= 2    im=3   it= 201
+    maxlcm= 800000
+    maxscm=  78000
+    idimen= 1
+    t
+/
+/  ---------------- Block 2 (Geometry) ---------------------------------
+/   slab shield thickness 100 cm, 100 fine mesh intervals in shield, 
+/                         1 interval in void region, total of 2 zones
+/
+    xmesh= 0.0   100.0   200.0   200.5
+    xints=    100     100      1
+    zones=    1       2      0
+    t
+/
+/  ---------------- Block 3 (Cross Section) ---------------------------
+/   This bxslib is different from the previous one. This has 217 groups
+    lib= bxslib
+    lng= 175
+    maxord= 5  ihm= 70  iht= 3  ihs= 4  ifido= 1  ititl= 1 
+               i2lp1= 1  savbxs= 0  kwikrd= 1
+    names= hnat h1   d    h3   he3  he4  linat li6  li7  be9  bnat b10 
+           b11  c12  n    o16  f19  na23 mgnat al27 si   p31  snat cl
+           knat canat ti  vnat cr   mn55 fe    co59 ni   cu  ganat zrnat
+           nb93 mo  snnat ta181 w  au197 pb    bi209
+    t
+/
+/  ---------------- Block 4 (Material Mixing) -------------------------
+/
+    matls=
+           iron  fe  8.4877-2;
+           wtr   h1  6.6900-2  o16 3.3450-2;
+    assign=
+            shield    iron   1.00 ;
+            wtrshd    wtr    1.00 ;
+    t
+/
+/  ---------------- Block 5 (Solver) ---------------------------------
+/   ith=0 is for forward, ith=1 is adjoint
+     ievt= 0  isct= 5  ith= 0  ibl= 0  ibr= 0  iitl= 200  iquad= 3
+     fluxp= 1  xsectp= 0  fissrp= 0  sourcp= 1  geomp= 1
+              angp= 0  raflux= 0  rmflux= 0   balp= 1
+      wgt= 0.0178571429 0.105352114 0.170561346 0.206229397 1n4
+       mu= -1.00000 -.871740148 -.591700181 -.209299218 1m4
+       norm= 2.0e12
+/
+/   ----------  source input ----------------------------------------
+/   source- left boundary source input per incoming quadrature angle
+
+    saleft= 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            3r 0.0 1.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0;
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+            4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 4r 0.0; 
+    t

@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+# This step is run after running DANTSYS in both forward and adjoint mode, but before
+#  running ALARA.
+#
+# First let's clean up.
+rm -f adjmac altinp asgmat bcdout bcdoux edgbal edtgpe fixsrc geodst macrxs ndxsrf sncons snxedt znatdn
+# mkdir outputs
+# mkdir inputs
+#
+# Generate the proper files for ALARA
+echo 'rtflux 1 -175' | ./../dant2alara > alara.fluxin
+echo 'atflux 176 -217' | ./../dant2alara > adjflux
+
+# Reverse the order of the adjoint flux using a Python script
+./reversed.py
+
+# Convert to Unix line endings and wrap
+dos2unix -q -o alara.adjflux_temp
+fold -sw 80 alara.adjflux_temp > alara.adjflux
+sed -e "s/\"//g" -i alara.adjflux 
+
+# Remove temp files
+rm -f adjflux alara.adjflux_temp
