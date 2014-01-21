@@ -9,8 +9,8 @@ rm -f adjmac altinp asgmat bcdout bcdoux edgbal edtgpe fixsrc geodst macrxs ndxs
 # mkdir inputs
 #
 # Generate the proper files for ALARA
-echo 'rtflux 1 -175' | ./../dant2alara > alara.fluxin
-echo 'atflux 176 -217' | ./../dant2alara > adjflux
+echo 'rtflux 1 -175' | ./dant2alara > alara.fluxin
+echo 'atflux 176 -217' | ./dant2alara > adjflux
 
 # Reverse the order of the adjoint flux using a Python script
 ./reversed.py
