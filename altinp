@@ -1,0 +1,111 @@
+ 3 0 0          0                                                              
+ N E E P 4 0 8 / H o m e w o r k P r o b l e m - I R O N S L A B S H I E L D   
+ U S I N G 2 1 7 - G R O U P S C R O S S S E C T I O N L I B R A R Y - M o n o -
+ C A L C U L A T E N E U T R O N F L U X F O R B I O L O G I C A L D O S E     
+ / g e o m e t r y - s l a b                                                   
+ / c r o s s s e c t i o n - 1 7 5 n e u t r o n - 4 2 g a m m a c o u p l e d l
+ / o f t h e d i f f e r e n t i a l s c a t t e r i n g c r o s s s e c t i o n
+ /                                                                             
+ / - - - - - - - - - - - - - - - - B l o c k 1 ( C o n t r o l a n d D i m e n s
+ i g e o m = 1 n g r o u p = 2 1 7 i s n = 8 n i s o = 4 4 m t = 2             
+ n z o n e = 2 i m = 3 i t = 2 0 1                                             
+ m a x l c m = 8 0 0 0 0 0                                                     
+ m a x s c m = 7 8 0 0 0                                                       
+ i d i m e n = 1                                                               
+ t                                                                             
+ /                                                                             
+ / - - - - - - - - - - - - - - - - B l o c k 2 ( G e o m e t r y ) - - - - - - -
+ / s l a b s h i e l d t h i c k n e s s 1 0 c m , 2 0 f i n e m e s h i n t e r
+ / 1 i n t e r a l i n v o i d r e g i o n , t o t a l o f 2 z o n e s         
+ /                                                                             
+ x m e s h = 0 . 0 1 0 0 . 0 2 0 0 . 0 2 0 0 . 5                               
+ x i n t s = 1 0 0 1 0 0 1                                                     
+ z o n e s = 1 2 0                                                             
+ t                                                                             
+ /                                                                             
+ / - - - - - - - - - - - - - - - - B l o c k 3 ( C r o s s S e c t i o n ) - - -
+ /                                                                             
+ l i b = b x s l i b                                                           
+ l n g = 1 7 5                                                                 
+ m a x o r d = 5 i h m = 7 0 i h t = 3 i h s = 4 i f i d o = 1 i t i t l = 1   
+ i 2 l p 1 = 1 s a v b x s = 0 k w i k r d = 1                                 
+ n a m e s = h n a t h 1 d h 3 h e 3 h e 4 l i n a t l i 6 l i 7 b e 9 b n a t b
+ b 1 1 c 1 2 n o 1 6 f 1 9 n a 2 3 m g n a t a l 2 7 s i p 3 1 s n a t c l     
+ k n a t c a n a t t i v n a t c r m n 5 5 f e c o 5 9 n i c u g a n a t z r n a
+ n b 9 3 m o s n n a t t a 1 8 1 w a u 1 9 7 p b b i 2 0 9                     
+ t                                                                             
+ /                                                                             
+ / - - - - - - - - - - - - - - - - B l o c k 4 ( M a t e r i a l M i x i n g ) -
+ /                                                                             
+ m a t l s =                                                                   
+ i r o n f e 8 . 4 8 7 7 - 2 ;                                                 
+ w t r h 1 6 . 6 9 0 0 - 2 o 1 6 3 . 3 4 5 0 - 2 ;                             
+ a s s i g n =                                                                 
+ w t r s h d w t r 1 . 0 0 ;                                                   
+ s h i e l d i r o n 1 . 0 0 ;                                                 
+ t                                                                             
+ /                                                                             
+ / - - - - - - - - - - - - - - - - B l o c k 5 ( S o l v e r ) - - - - - - - - -
+ / i t h = 0 i s f o r f o r w a r d , i t h = 1 i s a d j o i n t             
+ i e v t = 0 i s c t = 5 i t h = 0 i b l = 0 i b r = 0 i i t l = 2 0 0 i q u a d
+ f l u x p = 1 x s e c t p = 0 f i s s r p = 0 s o u r c p = 1 g e o m p = 1   
+ a n g p = 0 r a f l u x = 0 r m f l u x = 0 b a l p = 1                       
+ w g t = 0 . 0 1 7 8 5 7 1 4 2 9 0 . 1 0 5 3 5 2 1 1 4 0 . 1 7 0 5 6 1 3 4 6 0 .
+ m u = - 1 . 0 0 0 0 0 - . 8 7 1 7 4 0 1 4 8 - . 5 9 1 7 0 0 1 8 1 - . 2 0 9 2 9
+ n o r m = 2 . 0 e 1 2                                                         
+ /                                                                             
+ / - - - - - - - - - - s o u r c e i n p u t - - - - - - - - - - - - - - - - - -
+ / s o u r c e - l e f t b o u n d a r y s o u r c e i n p u t p e r i n c o m i
+                                                                               
+ s a l e f t =                                                                 
+ 3 r 0 . 0 2 . 7 2 1 E - 0 4 ; 3 r 0 . 0 1 . 2 9 2 E - 0 4 ; 3 r 0 . 0 1 . 8 1 6
+ 3 r 0 . 0 1 . 2 0 5 E - 0 3 ; 3 r 0 . 0 7 . 0 6 4 E - 0 4 ; 3 r 0 . 0 1 . 2 6 5
+ 3 r 0 . 0 1 . 7 7 0 E - 0 3 ; 3 r 0 . 0 6 . 3 2 3 E - 0 3 ; 3 r 0 . 0 4 . 0 4 8
+ 3 r 0 . 0 1 . 5 0 9 E - 0 2 ; 3 r 0 . 0 1 . 9 6 1 E - 0 2 ; 3 r 0 . 0 3 . 6 8 2
+ 3 r 0 . 0 6 . 9 1 2 E - 0 2 ; 3 r 0 . 0 9 . 4 3 9 E - 0 2 ; 3 r 0 . 0 1 . 2 8 4
+ 3 r 0 . 0 2 . 2 3 7 E - 0 1 ; 3 r 0 . 0 2 . 8 6 2 E - 0 1 ; 3 r 0 . 0 3 . 5 8 8
+ 3 r 0 . 0 1 . 6 9 4 E - 0 1 ; 3 r 0 . 0 3 . 6 4 3 E - 0 1 ; 3 r 0 . 0 6 . 5 1 8
+ 3 r 0 . 0 9 . 0 5 7 E - 0 1 ; 3 r 0 . 0 1 . 0 6 2 E + 0 0 ; 3 r 0 . 0 1 . 1 8 1
+ 3 r 0 . 0 1 . 5 2 4 E + 0 0 ; 3 r 0 . 0 3 . 4 7 4 E + 0 0 ; 3 r 0 . 0 4 . 2 1 1
+ 3 r 0 . 0 2 . 5 5 9 E + 0 0 ; 3 r 0 . 0 2 . 8 2 0 E + 0 0 ; 3 r 0 . 0 2 . 6 9 8
+ 3 r 0 . 0 3 . 1 7 2 E + 0 0 ; 3 r 0 . 0 2 . 9 2 4 E + 0 0 ; 3 r 0 . 0 2 . 0 5 8
+ 3 r 0 . 0 5 . 3 4 3 E - 0 1 ; 3 r 0 . 0 1 . 0 8 6 E + 0 0 ; 3 r 0 . 0 2 . 2 4 2
+ 3 r 0 . 0 3 . 1 0 3 E + 0 0 ; 3 r 0 . 0 3 . 2 5 8 E + 0 0 ; 3 r 0 . 0 3 . 0 6 8
+ 3 r 0 . 0 3 . 3 2 6 E + 0 0 ; 3 r 0 . 0 3 . 0 6 4 E + 0 0 ; 3 r 0 . 0 2 . 7 6 4
+ 3 r 0 . 0 2 . 9 2 4 E + 0 0 ; 3 r 0 . 0 2 . 5 6 4 E + 0 0 ; 3 r 0 . 0 2 . 6 1 4
+ 3 r 0 . 0 2 . 7 0 8 E + 0 0 ; 3 r 0 . 0 5 . 0 7 0 E + 0 0 ; 3 r 0 . 0 1 . 7 7 9
+ 3 r 0 . 0 2 . 0 9 3 E + 0 0 ; 3 r 0 . 0 2 . 0 0 8 E + 0 0 ; 3 r 0 . 0 1 . 9 1 9
+ 3 r 0 . 0 1 . 7 3 2 E + 0 0 ; 3 r 0 . 0 1 . 6 8 3 E + 0 0 ; 3 r 0 . 0 1 . 5 8 4
+ 3 r 0 . 0 1 . 4 2 9 E + 0 0 ; 3 r 0 . 0 1 . 3 2 7 E + 0 0 ; 3 r 0 . 0 1 . 2 7 2
+ 3 r 0 . 0 2 . 1 7 1 E + 0 0 ; 3 r 0 . 0 1 . 9 4 9 E + 0 0 ; 3 r 0 . 0 8 . 9 1 4
+ 3 r 0 . 0 1 . 5 1 3 E + 0 0 ; 3 r 0 . 0 1 . 3 4 5 E + 0 0 ; 3 r 0 . 0 1 . 2 4 1
+ 3 r 0 . 0 8 . 2 3 4 E - 0 2 ; 3 r 0 . 0 3 . 2 7 7 E - 0 1 ; 3 r 0 . 0 5 . 6 6 6
+ 3 r 0 . 0 4 . 6 2 5 E - 0 1 ; 3 r 0 . 0 4 . 1 6 9 E - 0 1 ; 3 r 0 . 0 4 . 0 9 8
+ 3 r 0 . 0 3 . 2 3 2 E - 0 1 ; 3 r 0 . 0 3 . 5 2 6 E - 0 1 ; 3 r 0 . 0 3 . 1 1 2
+ 3 r 0 . 0 2 . 6 6 4 E - 0 1 ; 3 r 0 . 0 2 . 6 1 2 E - 0 1 ; 3 r 0 . 0 2 . 2 4 0
+ 3 r 0 . 0 2 . 1 5 0 E - 0 1 ; 3 r 0 . 0 1 . 8 0 5 E - 0 1 ; 3 r 0 . 0 1 . 7 6 8
+ 3 r 0 . 0 3 . 6 1 2 E - 0 1 ; 3 r 0 . 0 3 . 0 2 6 E - 0 1 ; 3 r 0 . 0 1 . 0 1 3
+ 3 r 0 . 0 1 . 8 0 8 E - 0 1 ; 3 r 0 . 0 1 . 0 6 8 E - 0 1 ; 3 r 0 . 0 2 . 3 7 6
+ 3 r 0 . 0 1 . 2 2 8 E - 0 1 ; 3 r 0 . 0 1 . 0 0 9 E - 0 1 ; 3 r 0 . 0 1 . 1 4 9
+ 3 r 0 . 0 5 . 1 7 2 E - 0 2 ; 3 r 0 . 0 2 . 2 5 9 E - 0 2 ; 3 r 0 . 0 1 . 3 2 7
+ 3 r 0 . 0 8 . 5 0 9 E - 0 3 ; 3 r 0 . 0 8 . 4 0 8 E - 0 3 ; 3 r 0 . 0 2 . 3 2 6
+ 3 r 0 . 0 5 . 1 2 3 E - 0 2 ; 3 r 0 . 0 3 . 4 7 8 E - 0 2 ; 3 r 0 . 0 1 . 0 6 2
+ 3 r 0 . 0 1 . 6 6 5 E - 0 2 ; 3 r 0 . 0 1 . 1 4 3 E - 0 2 ; 3 r 0 . 0 7 . 8 4 9
+ 3 r 0 . 0 1 . 9 6 5 E - 0 3 ; 3 r 0 . 0 1 . 6 1 0 E - 0 3 ; 3 r 0 . 0 1 . 4 3 4
+ 3 r 0 . 0 5 . 5 7 0 E - 0 4 ; 3 r 0 . 0 1 . 0 7 4 E - 0 3 ; 3 r 0 . 0 9 . 3 5 6
+ 3 r 0 . 0 1 . 2 0 6 E - 0 3 ; 3 r 0 . 0 8 . 1 8 7 E - 0 4 ; 3 r 0 . 0 5 . 7 2 6
+ 3 r 0 . 0 2 . 7 0 2 E - 0 4 ; 3 r 0 . 0 1 . 8 4 9 E - 0 4 ; 3 r 0 . 0 1 . 2 8 9
+ 3 r 0 . 0 5 . 9 6 8 E - 0 5 ; 3 r 0 . 0 4 . 1 4 8 E - 0 5 ; 3 r 0 . 0 2 . 8 6 7
+ 3 r 0 . 0 1 . 3 4 9 E - 0 5 ; 3 r 0 . 0 9 . 1 8 3 E - 0 6 ; 3 r 0 . 0 6 . 3 6 6
+ 3 r 0 . 0 2 . 9 9 1 E - 0 6 ; 3 r 0 . 0 2 . 0 6 3 E - 0 6 ; 3 r 0 . 0 1 . 4 2 0
+ 3 r 0 . 0 6 . 7 5 3 E - 0 7 ; 3 r 0 . 0 4 . 6 0 6 E - 0 7 ; 3 r 0 . 0 3 . 1 8 0
+ 3 r 0 . 0 1 . 4 9 7 E - 0 7 ; 3 r 0 . 0 1 . 0 3 2 E - 0 7 ; 3 r 0 . 0 6 . 9 6 7
+ 3 r 0 . 0 3 . 3 4 4 E - 0 8 ; 3 r 0 . 0 2 . 3 4 1 E - 0 8 ; 3 r 0 . 0 1 . 5 6 8
+ 3 r 0 . 0 7 . 4 6 7 E - 0 9 ; 3 r 0 . 0 1 . 4 4 1 E - 0 8 ; 3 r 0 . 0 1 . 9 3 2
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 . 0 ; 4 r 0 .
+ t                                                                             
